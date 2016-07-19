@@ -1,8 +1,8 @@
 FROM golang:1.6.2-wheezy
 
-ENV GLIDE_VERSION 0.10.2
+ENV GLIDE_VERSION v0.11.0
 ENV GLIDE_DOWNLOAD_URL https://github.com/Masterminds/glide/releases/download/$GLIDE_VERSION/glide-$GLIDE_VERSION-linux-amd64.tar.gz
-ENV GLIDE_DOWNLOAD_SHA256 0eedb7f47ff4d184ab334f8dd8be843f8e98774b6ccd92cbe71a6e6c7a3d5da8
+ENV GLIDE_DOWNLOAD_SHA256 32daf53dc8c06bd2e5de319072a16678684fdba3540f967e672252b0995bc8be
 
 ENV PATH $PATH:/usr/local/glide/linux-amd64
 
