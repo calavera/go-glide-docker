@@ -1,4 +1,4 @@
-FROM golang:1.8.0-stretch
+FROM golang:1.8.3-stretch
 
 ENV GLIDE_VERSION v0.12.3
 ENV GLIDE_DOWNLOAD_URL https://github.com/Masterminds/glide/releases/download/$GLIDE_VERSION/glide-$GLIDE_VERSION-linux-amd64.tar.gz
